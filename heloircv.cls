@@ -64,10 +64,7 @@
 \newcommand{\cvheader}{
     \begingroup
         {\mainTitleFont\color{mainTextColor}\@name\par}
-        \bigskip
-        {\mainTextFont\color{mainTextColor}\@headline\par}
-        \medskip
-        {\mainTextFont\color{mainTextColor}\@email~|~ \href{https://\@homepage}{\@homepage}~|~\href{https://\@github}{\@github}~|~\href{https://\@linkedin}{\@linkedin}}
+        \medskip        {\mainTextFont\color{mainTextColor}\@headline~|~\@email~|~ \href{https://\@homepage}{\@homepage}~|~\href{https://\@github}{\@github}~|~\href{https://\@linkedin}{\@linkedin}}
     \endgroup
 }
 
